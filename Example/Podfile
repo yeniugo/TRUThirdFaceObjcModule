@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'TRUThirdFaceObjcModule_Example' do
+  pod 'TRUThirdFaceObjcModule', :path => '../'
+
+  target 'TRUThirdFaceObjcModule_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
