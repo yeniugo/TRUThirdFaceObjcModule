@@ -1,0 +1,31 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Masonry (1.1.0)
+  - TRUThirdFaceObjcModule (0.0.1)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - Masonry
+  - TRUThirdFaceObjcModule (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+    - Masonry
+
+EXTERNAL SOURCES:
+  TRUThirdFaceObjcModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  TRUThirdFaceObjcModule: 47331f72f0e8315cfb3d840bd2a1f0e471aab2f2
+
+PODFILE CHECKSUM: ad83667c130ca1be77cc84404ae88e7dce935fc2
+
+COCOAPODS: 1.9.1

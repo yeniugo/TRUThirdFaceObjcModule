@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		27CE3F3272111162170BE2E5 /* Pods_TRUThirdFaceObjcModule_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DDE09E6F242F72198A060E5 /* Pods_TRUThirdFaceObjcModule_Tests.framework */; };
+		2DC6D6E42456BF3D00ACF03E /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC6D6E32456BF3D00ACF03E /* libc++.tbd */; };
+		2DC6D6E62456BF5E00ACF03E /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC6D6E52456BF5E00ACF03E /* AssetsLibrary.framework */; };
+		2DC6D6E82456BF9000ACF03E /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC6D6E72456BF9000ACF03E /* Accelerate.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
-		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
@@ -40,7 +42,17 @@
 		10D746192B293D02033F6268 /* Pods_TRUThirdFaceObjcModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRUThirdFaceObjcModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1644C235A36FBACB997108EC /* Pods-TRUThirdFaceObjcModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRUThirdFaceObjcModule_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TRUThirdFaceObjcModule_Tests/Pods-TRUThirdFaceObjcModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1A4A741807C1D1A468CDB78C /* Pods-TRUThirdFaceObjcModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRUThirdFaceObjcModule_Example.release.xcconfig"; path = "Target Support Files/Pods-TRUThirdFaceObjcModule_Example/Pods-TRUThirdFaceObjcModule_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2B2C0C5D2AEB04C5057E95D1 /* TRUThirdFaceObjcModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TRUThirdFaceObjcModule.podspec; path = ../TRUThirdFaceObjcModule.podspec; sourceTree = "<group>"; };
+		2B2C0C5D2AEB04C5057E95D1 /* TRUThirdFaceObjcModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TRUThirdFaceObjcModule.podspec; path = ../TRUThirdFaceObjcModule.podspec; sourceTree = "<group>"; };
+		2DC6D6C82456B94700ACF03E /* TRUThirdFaceObjcModule_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TRUThirdFaceObjcModule_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		2DC6D6DF2456BCBF00ACF03E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		2DC6D6E12456BDBE00ACF03E /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Photos.framework; sourceTree = DEVELOPER_DIR; };
+		2DC6D6E32456BF3D00ACF03E /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/libc++.tbd"; sourceTree = DEVELOPER_DIR; };
+		2DC6D6E52456BF5E00ACF03E /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		2DC6D6E72456BF9000ACF03E /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		2DC6D6ED2456C06D00ACF03E /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		2DC6D6EF2456C08700ACF03E /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		2DC6D6F22456C17600ACF03E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2DC6D6F42456C1E800ACF03E /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		6003F58A195388D20070C39A /* TRUThirdFaceObjcModule_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRUThirdFaceObjcModule_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,10 +75,10 @@
 		6DDE09E6F242F72198A060E5 /* Pods_TRUThirdFaceObjcModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRUThirdFaceObjcModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		99379E5414C9D961D20302BF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		99379E5414C9D961D20302BF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A745974D27171A0824FAA22B /* Pods-TRUThirdFaceObjcModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRUThirdFaceObjcModule_Tests.release.xcconfig"; path = "Target Support Files/Pods-TRUThirdFaceObjcModule_Tests/Pods-TRUThirdFaceObjcModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B21F41E0FE793AAADCE89B56 /* Pods-TRUThirdFaceObjcModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRUThirdFaceObjcModule_Example.debug.xcconfig"; path = "Target Support Files/Pods-TRUThirdFaceObjcModule_Example/Pods-TRUThirdFaceObjcModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D83D4308D314A90842D847CF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D83D4308D314A90842D847CF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +86,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
 				965F6D420FB2C1C840B5E5EF /* Pods_TRUThirdFaceObjcModule_Example.framework in Frameworks */,
@@ -85,6 +96,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DC6D6E82456BF9000ACF03E /* Accelerate.framework in Frameworks */,
+				2DC6D6E62456BF5E00ACF03E /* AssetsLibrary.framework in Frameworks */,
+				2DC6D6E42456BF3D00ACF03E /* libc++.tbd in Frameworks */,
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -119,6 +133,15 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2DC6D6F42456C1E800ACF03E /* CoreMedia.framework */,
+				2DC6D6F22456C17600ACF03E /* AVFoundation.framework */,
+				2DC6D6EF2456C08700ACF03E /* libc++.tbd */,
+				2DC6D6E72456BF9000ACF03E /* Accelerate.framework */,
+				2DC6D6ED2456C06D00ACF03E /* Accelerate.framework */,
+				2DC6D6E52456BF5E00ACF03E /* AssetsLibrary.framework */,
+				2DC6D6E32456BF3D00ACF03E /* libc++.tbd */,
+				2DC6D6E12456BDBE00ACF03E /* Photos.framework */,
+				2DC6D6DF2456BCBF00ACF03E /* AVFoundation.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -140,6 +163,7 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				2DC6D6C82456B94700ACF03E /* TRUThirdFaceObjcModule_Example-Bridging-Header.h */,
 			);
 			name = "Example for TRUThirdFaceObjcModule";
 			path = TRUThirdFaceObjcModule;
@@ -193,7 +217,6 @@
 				1644C235A36FBACB997108EC /* Pods-TRUThirdFaceObjcModule_Tests.debug.xcconfig */,
 				A745974D27171A0824FAA22B /* Pods-TRUThirdFaceObjcModule_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -249,7 +272,14 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = yeniugo;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = AG9SM32322;
+						LastSwiftMigration = 1140;
+						ProvisioningStyle = Manual;
+					};
 					6003F5AD195388D20070C39A = {
+						DevelopmentTeam = AG9SM32322;
+						ProvisioningStyle = Manual;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -259,6 +289,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -321,10 +352,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TRUThirdFaceObjcModule_Example/Pods-TRUThirdFaceObjcModule_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/TRUThirdFaceObjcModule/TRUThirdFaceObjcModule.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TRUThirdFaceObjcModule.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -453,6 +486,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -493,6 +527,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -513,12 +548,23 @@
 			baseConfigurationReference = B21F41E0FE793AAADCE89B56 /* Pods-TRUThirdFaceObjcModule_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = AG9SM32322;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TRUThirdFaceObjcModule/AuthenFace",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TRUThirdFaceObjcModule/TRUThirdFaceObjcModule-Prefix.pch";
 				INFOPLIST_FILE = "TRUThirdFaceObjcModule/TRUThirdFaceObjcModule-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trusfort.test.cims;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = CommonTestProfile;
+				SWIFT_OBJC_BRIDGING_HEADER = "TRUThirdFaceObjcModule/TRUThirdFaceObjcModule_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
@@ -529,12 +575,22 @@
 			baseConfigurationReference = 1A4A741807C1D1A468CDB78C /* Pods-TRUThirdFaceObjcModule_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = AG9SM32322;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TRUThirdFaceObjcModule/AuthenFace",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TRUThirdFaceObjcModule/TRUThirdFaceObjcModule-Prefix.pch";
 				INFOPLIST_FILE = "TRUThirdFaceObjcModule/TRUThirdFaceObjcModule-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trusfort.test.cims;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = CommonTestProfile;
+				SWIFT_OBJC_BRIDGING_HEADER = "TRUThirdFaceObjcModule/TRUThirdFaceObjcModule_Example-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
@@ -545,6 +601,8 @@
 			baseConfigurationReference = 1644C235A36FBACB997108EC /* Pods-TRUThirdFaceObjcModule_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = AG9SM32322;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -558,7 +616,10 @@
 				);
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TRUThirdFaceObjcModule_Example.app/TRUThirdFaceObjcModule_Example";
 				WRAPPER_EXTENSION = xctest;
@@ -570,6 +631,8 @@
 			baseConfigurationReference = A745974D27171A0824FAA22B /* Pods-TRUThirdFaceObjcModule_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -580,6 +643,8 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TRUThirdFaceObjcModule_Example.app/TRUThirdFaceObjcModule_Example";
 				WRAPPER_EXTENSION = xctest;

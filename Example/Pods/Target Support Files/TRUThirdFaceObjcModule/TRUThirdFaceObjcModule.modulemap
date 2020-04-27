@@ -1,0 +1,6 @@
+framework module TRUThirdFaceObjcModule {
+  umbrella header "TRUThirdFaceObjcModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

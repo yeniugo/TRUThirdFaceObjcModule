@@ -1,0 +1,40 @@
+{
+  "name": "TRUThirdFaceObjcModule",
+  "version": "0.0.1",
+  "summary": "A short description of TRUThirdFaceObjcModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yeniugo/TRUThirdFaceObjcModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yeniugo": "hukaihope@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/yeniugo/TRUThirdFaceObjcModule.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "TRUThirdFaceObjcModule/Classes/**/*",
+  "requires_arc": true,
+  "libraries": "c++",
+  "resource_bundles": {
+    "TRUThirdFaceModule": [
+      "TRUThirdFaceObjcModule/Assets/*"
+    ]
+  },
+  "ios": {
+    "vendored_frameworks": "TRUThirdFaceObjcModule/Frameworks/AuthenAnti_SpoofingSDK.framework"
+  },
+  "frameworks": [
+    "UIKit",
+    "CoreMedia",
+    "AVFoundation",
+    "AssetsLibrary",
+    "Accelerate",
+    "CoreGraphics"
+  ]
+}
